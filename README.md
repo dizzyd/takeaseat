@@ -1,7 +1,7 @@
 # Take a Seat
 
 Sit properly in chairs, stools, benches and couches: right-click to sit, sneak to stand.
-Supports [W4RD0's Furniture](https://mods.vintagestory.at/w4rd0sfurniture) out of the box.
+Requires [W4RD0's Furniture](https://mods.vintagestory.at/w4rd0sfurniture) 1.4.0 or newer.
 
 ## Features
 
