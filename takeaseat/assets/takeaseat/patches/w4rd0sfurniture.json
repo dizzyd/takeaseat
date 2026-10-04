@@ -1,0 +1,1345 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/pianostool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rougharmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rougharmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rougharmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rougharmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rougharmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughlogstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughlogstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughlogstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughlogstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughlogstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/roughstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticarmchairraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticchairdining.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouch.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchpadded.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticcouchraw.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticleatherchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticleatherchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticleatherchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticleatherchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticleatherchair.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rusticstool.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictallbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictallbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictallbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictallbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat"
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictallbench.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictoilet.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-north/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictoilet.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-east/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictoilet.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-south/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictoilet.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/behaviorsByType/*-west/-",
+    "value": {
+      "name": "takeaseat.Seat",
+      "properties": {
+        "facing": "variant"
+      }
+    },
+    "file": "w4rd0sfurniture:blocktypes/rustictoilet.json",
+    "dependsOn": [
+      {
+        "modid": "w4rd0sfurniture"
+      }
+    ]
+  }
+]

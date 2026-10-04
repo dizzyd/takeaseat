@@ -1,0 +1,140 @@
+[
+  {
+    "op": "add",
+    "path": "/animations/-",
+    "file": "game:shapes/entity/humanoid/seraph-faceless.json",
+    "value": {
+      "name": "TakeASeatLounge",
+      "code": "takeaseat-lounge",
+      "quantityframes": 60,
+      "onActivityStopped": "Rewind",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso": {
+              "offsetX": 6.2,
+              "offsetY": -12.6,
+              "offsetZ": 0.0,
+              "rotationZ": -8,
+              "rotationX": 0.0,
+              "rotationY": 0.0
+            },
+            "UpperTorso": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -4.0
+            },
+            "UpperArmR": {
+              "offsetX": 1.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": -22.5,
+              "rotationZ": -35.0
+            },
+            "LowerArmR": {
+              "rotationX": -45.0,
+              "rotationY": 0.0,
+              "rotationZ": -19.0
+            },
+            "UpperArmL": {
+              "offsetX": 1.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 20.0,
+              "rotationZ": -37.0
+            },
+            "LowerArmL": {
+              "rotationX": 45.0,
+              "rotationY": 0.0,
+              "rotationZ": -20.0
+            },
+            "Head": {
+              "offsetX": 0.0,
+              "offsetY": 0.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 14.0
+            },
+            "UpperFootL": {
+              "offsetX": 0.0,
+              "offsetY": 1.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 8.0,
+              "rotationZ": -72.0
+            },
+            "LowerFootL": {
+              "offsetX": 0.0,
+              "offsetY": 1.5,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 62.0
+            },
+            "UpperFootR": {
+              "offsetX": 0.0,
+              "offsetY": 1.0,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": -8.0,
+              "rotationZ": -77.0
+            },
+            "LowerFootR": {
+              "offsetX": 0.0,
+              "offsetY": 1.5,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 60.0
+            }
+          }
+        },
+        {
+          "frame": 23,
+          "elements": {
+            "UpperArmL": {
+              "rotationX": 0.0,
+              "rotationY": 21.0,
+              "rotationZ": -34.0
+            }
+          }
+        },
+        {
+          "frame": 30,
+          "elements": {
+            "UpperTorso": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": -5.0
+            },
+            "Head": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 15.0
+            },
+            "UpperArmR": {
+              "rotationX": 0.0,
+              "rotationY": -22.5,
+              "rotationZ": -32.0
+            },
+            "LowerFootL": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 51.0
+            },
+            "LowerFootR": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 72.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

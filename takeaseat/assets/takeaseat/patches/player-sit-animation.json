@@ -1,0 +1,58 @@
+[
+  {
+    "op": "add",
+    "path": "/client/animations/-",
+    "file": "game:entities/humanoid/player.json",
+    "value": {
+      "code": "takeaseat-sit",
+      "animation": "sitidle",
+      "clientSide": true,
+      "blendMode": "Average",
+      "easeInSpeed": 2,
+      "elementWeight": {
+        "LowerTorso": 80,
+        "UpperTorso": 80,
+        "UpperFootR": 80,
+        "UpperFootL": 80,
+        "LowerFootR": 80,
+        "LowerFootL": 80
+      },
+      "elementBlendMode": {
+        "LowerTorso": "Average",
+        "UpperTorso": "Average",
+        "UpperFootR": "Average",
+        "UpperFootL": "Average",
+        "LowerFootR": "Average",
+        "LowerFootL": "Average"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/client/animations/-",
+    "file": "game:entities/humanoid/player.json",
+    "value": {
+      "code": "takeaseat-lounge",
+      "animation": "takeaseat-lounge",
+      "clientSide": true,
+      "blendMode": "Average",
+      "easeInSpeed": 2,
+      "elementWeight": {
+        "LowerTorso": 80,
+        "UpperTorso": 80,
+        "UpperFootR": 80,
+        "UpperFootL": 80,
+        "LowerFootR": 80,
+        "LowerFootL": 80
+      },
+      "elementBlendMode": {
+        "LowerTorso": "Average",
+        "UpperTorso": "Average",
+        "UpperFootR": "Average",
+        "UpperFootL": "Average",
+        "LowerFootR": "Average",
+        "LowerFootL": "Average"
+      }
+    }
+  }
+]

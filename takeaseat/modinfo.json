@@ -1,0 +1,12 @@
+{
+    "type": "code",
+    "modid": "takeaseat",
+    "name": "Take a Seat",
+    "authors": [
+        "dizzyd"
+    ],
+    "description": "Sit properly in chairs, stools, benches and couches. Right-click to sit, sneak to stand. Ships support for W4RD0's Furniture.",
+    "version": "0.1.0",
+    "side": "Universal",
+    "dependencies": { "game": "1.22.0" }
+}
