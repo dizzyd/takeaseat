@@ -6,7 +6,7 @@
         "dizzyd"
     ],
     "description": "Sit properly in the chairs, stools, benches and couches of W4RD0's Furniture. Right-click to sit, sneak to stand.",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "side": "Universal",
     "dependencies": {
         "game": "1.22.0",
