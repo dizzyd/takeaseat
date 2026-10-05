@@ -139,6 +139,29 @@ namespace TakeASeat.Tests
             Assert.Equal("takeaseat-sit", stool.SuggestedAnimation.Code, "stool pose");
         }
 
+        /// <summary>
+        /// Found photographing a bench approached diagonally: snapping the look to the nearest
+        /// side sat the player sideways along it.
+        /// </summary>
+        [VsTest]
+        public Task ABenchSeatsYouAcrossItWhicheverWayYouApproach()
+        {
+            var layout = Block("w4rd0sfurniture:roughbench-north").GetBehavior<BlockBehaviorSeat>().Layout;
+            Assert.Equal(true, layout.LongAxisX, "a north-placed bench runs along X");
+
+            float south = SeatLayout.YawFacing(0, 1), north = SeatLayout.YawFacing(0, -1);
+            float southWest = SeatLayout.YawFacing(-1, 1.05), west = SeatLayout.YawFacing(-1, 0.05);
+            float northEast = SeatLayout.YawFacing(1, -1.05);
+            Assert.Close(layout.FacingFor(southWest), south, 0.001, "approached from the north-east, looking south-west");
+            Assert.Close(layout.FacingFor(west), south, 0.001, "looking along the bench, a little south");
+            Assert.Close(layout.FacingFor(northEast), north, 0.001, "approached from the south-west");
+
+            var stool = Block(Stool).GetBehavior<BlockBehaviorSeat>().Layout;
+            Assert.Null(stool.LongAxisX, "a square stool can face any side");
+            Assert.Close(stool.FacingFor(SeatLayout.YawFacing(-1, 0.05)), SeatLayout.YawFacing(-1, 0), 0.001, "stool faces west");
+            return Task.CompletedTask;
+        }
+
         [VsTest]
         public Task AStoolLetsTheSitterChooseTheirFacing()
         {

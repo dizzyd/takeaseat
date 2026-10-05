@@ -44,7 +44,7 @@ public class BlockBehaviorSeat : BlockBehavior
         var seat = blockSeats?.NearestFreeSeat(byPlayer.Entity, blockSel.HitPosition);
         if (seat == null) return false;
 
-        if (Layout.Yaw == null) seat.Yaw = SeatLayout.SnapYaw(byPlayer.Entity.Pos.Yaw);
+        seat.Yaw = Layout.FacingFor(byPlayer.Entity.Pos.Yaw);
 
         handling = EnumHandling.PreventSubsequent;
         return byPlayer.Entity.TryMount(seat);

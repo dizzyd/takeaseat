@@ -11,7 +11,7 @@ Requires [W4RD0's Furniture](https://mods.vintagestory.at/w4rd0sfurniture) 1.4.0
   or on top of it if there's no room elsewhere.
 - Chairs with a backrest face you away from it, and you lounge back against it. Backless
   stools face whichever way you were looking, snapped to the nearest side, and you sit
-  upright.
+  upright. A bench or piano stool faces across itself, on whichever side you were looking.
 - Benches and couches seat two.
 - **Well rested.** Sit down for 10 minutes (in-game time) and for the next 4 hours you get
   hungry 10% more slowly and heal 10% better. It can be earned once a day (again 20 hours

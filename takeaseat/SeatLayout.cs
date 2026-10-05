@@ -45,8 +45,16 @@ public sealed class SeatLayout
     /// </summary>
     public float? LoungeDepth { get; }
 
-    private SeatLayout(Vec3d[] offsets, Vec2d[] halfSizes, float? yaw, float eyeHeight, float legRoom, float? loungeDepth)
+    /// <summary>
+    /// For a backless seat that is clearly longer one way than the other - a bench, a piano
+    /// stool - the axis it runs along: true for X, false for Z. Null for a square stool, or
+    /// for a seat whose facing is fixed anyway.
+    /// </summary>
+    public bool? LongAxisX { get; }
+
+    private SeatLayout(Vec3d[] offsets, Vec2d[] halfSizes, float? yaw, float eyeHeight, float legRoom, float? loungeDepth, bool? longAxisX = null)
     {
+        LongAxisX = longAxisX;
         Offsets = offsets;
         HalfSizes = halfSizes;
         Yaw = yaw;
@@ -128,8 +136,17 @@ public sealed class SeatLayout
             ? properties?["loungeDepth"].AsFloat(0.64f) ?? 0.64f
             : null;
 
+        // Nobody sits along a bench: a long backless seat faces across itself.
+        bool? longAxisX = null;
+        if (!faced)
+        {
+            double sizeX = x2 - x1, sizeZ = z2 - z1;
+            if (sizeX > sizeZ * 1.25) longAxisX = true;
+            else if (sizeZ > sizeX * 1.25) longAxisX = false;
+        }
+
         float? yaw = faced ? YawFacing(faceX, faceZ) : null;
-        return new SeatLayout(offsets, halfSizes, yaw, eyeHeight, legRoom, loungeDepth);
+        return new SeatLayout(offsets, halfSizes, yaw, eyeHeight, legRoom, loungeDepth, longAxisX);
     }
 
     /// <summary>
@@ -137,6 +154,22 @@ public sealed class SeatLayout
     /// EntityPos.GetViewVector, so this is not the inverse of that for a plain yaw.
     /// </summary>
     public static float YawFacing(double dx, double dz) => (float)Math.Atan2(dx, dz);
+
+    /// <summary>
+    /// The way a sitter faces, given the way they were looking as they sat: the seat's own
+    /// facing if it has one; across a long seat, whichever side is nearer the look; otherwise
+    /// the nearest of the four directions.
+    /// </summary>
+    public float FacingFor(float lookYaw)
+    {
+        if (Yaw is float fixedYaw) return fixedYaw;
+        return LongAxisX switch
+        {
+            true => YawFacing(0, Math.Cos(lookYaw) >= 0 ? 1 : -1),
+            false => YawFacing(Math.Sin(lookYaw) >= 0 ? 1 : -1, 0),
+            null => SnapYaw(lookYaw),
+        };
+    }
 
     /// <summary>Snaps a free yaw to the nearest of the four horizontal directions.</summary>
     public static float SnapYaw(float yaw) => (float)(Math.Round(yaw / GameMath.PIHALF) * GameMath.PIHALF);
